@@ -34,6 +34,11 @@ function find_item_name_by_key_name(key_name) {
 		if(items[i].key_name != key_name) continue;
 		return items[i].name;
 	}
+	let fluids = g_satisfactory_data["fluids"];
+	for(let i = 0; i < fluids.length; ++i) {
+		if(fluids[i].key_name != key_name) continue;
+		return fluids[i].name;
+	}
 	return null;
 }
 
