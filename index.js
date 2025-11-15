@@ -14,7 +14,7 @@ const g_final_target =
 
 const g_target_hours = 20;
 
-/*
+
 function table_begin(o) {o+="<table>";}
 function table_end(o) {o+="</table>";}
 
@@ -26,7 +26,7 @@ function table_col_end(o) {o+="</td>";}
 
 function table_add_header(o, cols) { table_begin(o); for(let elem in cols) {table_col_begin(o); o+=elem; table_col_end(o);} table_end(o);}
 function table_add_row(o, cols) {table_begin(o); for(let elem in cols) {table_col_begin(o); o+=elem; table_col_end(o);} table_end(o);}
-*/
+
 
 function find_item_name_by_key_name(key_name) {
 	let items = g_satisfactory_data["items"];
@@ -35,6 +35,17 @@ function find_item_name_by_key_name(key_name) {
 		return items[i].name;
 	}
 	return null;
+}
+
+function get_image_str_for_item(name) {
+	if(name == null) {
+		return "";
+	}
+	return "<img width='64' src='images/"+name+".png' />";
+}
+
+function get_image_str_for_item_key(key_name) {
+	return get_image_str_for_item(find_item_name_by_key_name(key_name));
 }
 
 function update_product_target_div(target, scale) {
@@ -47,7 +58,7 @@ function update_product_target_div(target, scale) {
 		str += "<tr>";
 		str += "<td>";
 		if(item_name!=null) {
-			str += "<img width='64' src='images/"+item_name+".png' />";
+			str += get_image_str_for_item(item_name);
 		}
 		str += "</td>";
 		str += "<td>" + cur[0] + "</td>";
@@ -69,14 +80,39 @@ function create_product_target_div() {
 // function load_data_json() {}
 
 function create_recipe_list() {
+	let div = document.createElement("div");
+	let str = "<table>";
+	//str += "<tr><th>img</th><th>product</th><th>speed</th></tr>";
+	
 	let recipes = g_satisfactory_data["recipes"];
+	
 	for(let ix in recipes) {
-		console.log(recipes[ix].name);
+		let curRec = recipes[ix];
+		//let main_product = cur.products[0][0];
+		str += "<td>" + curRec.name + "</td>";
+		str += "<td>";
+		for(let i=0;i<curRec.products.length;++i) {
+			let curItem = curRec.products[i];
+			str += get_image_str_for_item_key(curItem[0]);
+			str += curItem[1];
+		}
+		str += "</td>";
+		str += "<td>";
+		for(let i=0;i<curRec.ingredients.length;++i) {
+			let curItem = curRec.ingredients[i];
+			str += get_image_str_for_item_key(curItem[0]);
+			str += curItem[1];
+		}
+		str += "</td>";
+		str += "</tr>";
 	}
+	str += "</table>";
+	div.innerHTML = str;
+	return div;
 }
 
 function init_page() {
 	g_content = document.getElementById("content");
 	create_product_target_div();
-	create_recipe_list();
+	g_content.appendChild(create_recipe_list());
 }
