@@ -88,20 +88,21 @@ function create_recipe_list() {
 	
 	for(let ix in recipes) {
 		let curRec = recipes[ix];
+		let time = curRec.time;
 		//let main_product = cur.products[0][0];
 		str += "<td>" + curRec.name + "</td>";
 		str += "<td>";
 		for(let i=0;i<curRec.products.length;++i) {
 			let curItem = curRec.products[i];
 			str += get_image_str_for_item_key(curItem[0]);
-			str += curItem[1];
+			str += curItem[1] + " (" + (curItem[1]*(60.0/time)).toFixed(0) + ")";
 		}
 		str += "</td>";
 		str += "<td>";
 		for(let i=0;i<curRec.ingredients.length;++i) {
 			let curItem = curRec.ingredients[i];
 			str += get_image_str_for_item_key(curItem[0]);
-			str += curItem[1];
+			str += curItem[1] + " (" + (curItem[1]*(60.0/time)).toFixed(0) + ")";
 		}
 		str += "</td>";
 		str += "</tr>";
