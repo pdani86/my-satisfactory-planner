@@ -1,0 +1,18 @@
+
+table {
+	/*border: solid black 1px;*/
+}
+
+td {
+	border: solid black 1px;
+	padding: 2px;
+}
+
+tr.building {
+	background-color: lightcyan;
+}
+
+tr.resource {
+	background-color: lightgray;
+}
+

@@ -1,0 +1,3597 @@
+{
+    "belts": [
+        {
+            "name": "Conveyor belt MK.I",
+            "key": "cb",
+            "rate": 6
+        },
+        {
+            "name": "Conveyor belt MK.II",
+            "key": "cc",
+            "rate": 12
+        },
+        {
+            "name": "Conveyor belt MK.III",
+            "key": "cd",
+            "rate": 30
+        }
+    ],
+    "buildings": [
+        {
+            "name": "Mining machine",
+            "key": "mm",
+            "speed": 1,
+            "category": "mining"
+        },
+        {
+            "name": "Water pump",
+            "key": "wp",
+            "speed": 1,
+            "category": "pump"
+        },
+        {
+            "name": "Oil extractor",
+            "key": "oe",
+            "speed": 1,
+            "category": "oil"
+        },
+        {
+            "name": "Oil refinery",
+            "key": "or",
+            "speed": 1,
+            "category": "refining"
+        },
+        {
+            "name": "Matrix lab",
+            "key": "ml",
+            "speed": 1,
+            "category": "lab"
+        },
+        {
+            "name": "Assembling machine Mk.I",
+            "key": "am",
+            "speed": 0.75,
+            "category": "crafting"
+        },
+        {
+            "name": "Assembling machine Mk.II",
+            "key": "an",
+            "speed": 1,
+            "category": "crafting"
+        },
+        {
+            "name": "Assembling machine Mk.III",
+            "key": "ao",
+            "speed": 1.5,
+            "category": "crafting"
+        },
+        {
+            "name": "Smelter",
+            "key": "s",
+            "speed": 1,
+            "category": "smelting"
+        },
+        {
+            "name": "Chemical plant",
+            "key": "cp",
+            "speed": 1,
+            "category": "chemistry"
+        }
+    ],
+    "items": [
+        {
+            "name": "Iron ore",
+            "key": "io",
+            "category": "item",
+            "row": 1
+        },
+        {
+            "name": "Copper ore",
+            "key": "cq",
+            "category": "item",
+            "row": 1
+        },
+        {
+            "name": "Stone ore",
+            "key": "sr",
+            "category": "item",
+            "row": 1
+        },
+        {
+            "name": "Coal ore",
+            "key": "co",
+            "category": "item",
+            "row": 1
+        },
+        {
+            "name": "Silicon ore",
+            "key": "so",
+            "category": "item",
+            "row": 1
+        },
+        {
+            "name": "Titanium ore",
+            "key": "to",
+            "category": "item",
+            "row": 1
+        },
+        {
+            "name": "Water",
+            "key": "w",
+            "category": "item",
+            "row": 1
+        },
+        {
+            "name": "Crude oil",
+            "key": "cs",
+            "category": "item",
+            "row": 1
+        },
+        {
+            "name": "Hydrogen",
+            "key": "k",
+            "category": "item",
+            "row": 1
+        },
+        {
+            "name": "Deuterium",
+            "key": "d",
+            "category": "item",
+            "row": 1
+        },
+        {
+            "name": "Antimatter",
+            "key": "c",
+            "category": "item",
+            "row": 1
+        },
+        {
+            "name": "Kimberlite ore",
+            "key": "ko",
+            "category": "item",
+            "row": 1
+        },
+        {
+            "name": "Iron ingot",
+            "key": "ii",
+            "category": "item",
+            "row": 2
+        },
+        {
+            "name": "Copper ingot",
+            "key": "ci",
+            "category": "item",
+            "row": 2
+        },
+        {
+            "name": "Stone",
+            "key": "u",
+            "category": "item",
+            "row": 2
+        },
+        {
+            "name": "Energetic graphite",
+            "key": "eg",
+            "category": "item",
+            "row": 2
+        },
+        {
+            "name": "High-purity silicon",
+            "key": "hp",
+            "category": "item",
+            "row": 2
+        },
+        {
+            "name": "Titanium ingot",
+            "key": "ti",
+            "category": "item",
+            "row": 2
+        },
+        {
+            "name": "Sulfuric acid",
+            "key": "sa",
+            "category": "item",
+            "row": 2
+        },
+        {
+            "name": "Refined oil",
+            "key": "ro",
+            "category": "item",
+            "row": 2
+        },
+        {
+            "name": "Hydrogen fuel rod",
+            "key": "hf",
+            "category": "item",
+            "row": 2
+        },
+        {
+            "name": "Deuteron fuel rod",
+            "key": "df",
+            "category": "item",
+            "row": 2
+        },
+        {
+            "name": "Antimatter fuel rod",
+            "key": "af",
+            "category": "item",
+            "row": 2
+        },
+        {
+            "name": "Fractal silicon",
+            "key": "fs",
+            "category": "item",
+            "row": 2
+        },
+        {
+            "name": "Magnet",
+            "key": "m",
+            "category": "item",
+            "row": 3
+        },
+        {
+            "name": "Magnetic coil",
+            "key": "mc",
+            "category": "item",
+            "row": 3
+        },
+        {
+            "name": "Glass",
+            "key": "i",
+            "category": "item",
+            "row": 3
+        },
+        {
+            "name": "Diamond",
+            "key": "e",
+            "category": "item",
+            "row": 3
+        },
+        {
+            "name": "Crystal silicon",
+            "key": "ct",
+            "category": "item",
+            "row": 3
+        },
+        {
+            "name": "Titanium alloy",
+            "key": "ta",
+            "category": "item",
+            "row": 3
+        },
+        {
+            "name": "Fire ice",
+            "key": "fi",
+            "category": "item",
+            "row": 3
+        },
+        {
+            "name": "Plastic",
+            "key": "p",
+            "category": "item",
+            "row": 3
+        },
+        {
+            "name": "Organic crystal",
+            "key": "od",
+            "category": "item",
+            "row": 3
+        },
+        {
+            "name": "Graphene",
+            "key": "j",
+            "category": "item",
+            "row": 3
+        },
+        {
+            "name": "Thruster",
+            "key": "v",
+            "category": "item",
+            "row": 3
+        },
+        {
+            "name": "Optical grating crystal",
+            "key": "og",
+            "category": "item",
+            "row": 3
+        },
+        {
+            "name": "Steel",
+            "key": "t",
+            "category": "item",
+            "row": 4
+        },
+        {
+            "name": "Circuit board",
+            "key": "cb",
+            "category": "item",
+            "row": 4
+        },
+        {
+            "name": "Prism",
+            "key": "q",
+            "category": "item",
+            "row": 4
+        },
+        {
+            "name": "Electric motor",
+            "key": "em",
+            "category": "item",
+            "row": 4
+        },
+        {
+            "name": "Microcrystalline component",
+            "key": "md",
+            "category": "item",
+            "row": 4
+        },
+        {
+            "name": "Casimir crystal",
+            "key": "cc",
+            "category": "item",
+            "row": 4
+        },
+        {
+            "name": "Strange matter",
+            "key": "sz",
+            "category": "item",
+            "row": 4
+        },
+        {
+            "name": "Titanium crystal",
+            "key": "tc",
+            "category": "item",
+            "row": 4
+        },
+        {
+            "name": "Carbon nanotube",
+            "key": "cn",
+            "category": "item",
+            "row": 4
+        },
+        {
+            "name": "Reinforced thruster",
+            "key": "rt",
+            "category": "item",
+            "row": 4
+        },
+        {
+            "name": "Spiniform stalagmite crystal",
+            "key": "su",
+            "category": "item",
+            "row": 4
+        },
+        {
+            "name": "Gear",
+            "key": "h",
+            "category": "item",
+            "row": 5
+        },
+        {
+            "name": "Plasma exciter",
+            "key": "pe",
+            "category": "item",
+            "row": 5
+        },
+        {
+            "name": "Photon combiner",
+            "key": "pd",
+            "category": "item",
+            "row": 5
+        },
+        {
+            "name": "Electromagnetic turbine",
+            "key": "et",
+            "category": "item",
+            "row": 5
+        },
+        {
+            "name": "Processor",
+            "key": "r",
+            "category": "item",
+            "row": 5
+        },
+        {
+            "name": "Annihilation constraint sphere",
+            "key": "ac",
+            "category": "item",
+            "row": 5
+        },
+        {
+            "name": "Titanium glass",
+            "key": "tg",
+            "category": "item",
+            "row": 5
+        },
+        {
+            "name": "Particle broadband",
+            "key": "pb",
+            "category": "item",
+            "row": 5
+        },
+        {
+            "name": "Logistics drone",
+            "key": "ld",
+            "category": "item",
+            "row": 5
+        },
+        {
+            "name": "Unipolar magnet",
+            "key": "um",
+            "category": "item",
+            "row": 5
+        },
+        {
+            "name": "Foundation",
+            "key": "f",
+            "category": "item",
+            "row": 6
+        },
+        {
+            "name": "Critical photon",
+            "key": "cr",
+            "category": "item",
+            "row": 6
+        },
+        {
+            "name": "Particle container",
+            "key": "pc",
+            "category": "item",
+            "row": 6
+        },
+        {
+            "name": "Super-magnetic ring",
+            "key": "sB",
+            "category": "item",
+            "row": 6
+        },
+        {
+            "name": "Graviton lens",
+            "key": "gl",
+            "category": "item",
+            "row": 6
+        },
+        {
+            "name": "Space warper",
+            "key": "sw",
+            "category": "item",
+            "row": 6
+        },
+        {
+            "name": "Plane filter",
+            "key": "pf",
+            "category": "item",
+            "row": 6
+        },
+        {
+            "name": "Quantum chip",
+            "key": "qc",
+            "category": "item",
+            "row": 6
+        },
+        {
+            "name": "Logistics vessel",
+            "key": "lv",
+            "category": "item",
+            "row": 6
+        },
+        {
+            "name": "Log",
+            "key": "l",
+            "category": "item",
+            "row": 6
+        },
+        {
+            "name": "Electromagnetic matrix",
+            "key": "en",
+            "category": "item",
+            "row": 7
+        },
+        {
+            "name": "Energy matrix",
+            "key": "eo",
+            "category": "item",
+            "row": 7
+        },
+        {
+            "name": "Structure matrix",
+            "key": "sA",
+            "category": "item",
+            "row": 7
+        },
+        {
+            "name": "Information matrix",
+            "key": "im",
+            "category": "item",
+            "row": 7
+        },
+        {
+            "name": "Gravity matrix",
+            "key": "gm",
+            "category": "item",
+            "row": 7
+        },
+        {
+            "name": "Universe matrix",
+            "key": "un",
+            "category": "item",
+            "row": 7
+        },
+        {
+            "name": "Solar sail",
+            "key": "st",
+            "category": "item",
+            "row": 7
+        },
+        {
+            "name": "Frame material",
+            "key": "fm",
+            "category": "item",
+            "row": 7
+        },
+        {
+            "name": "Dyson sphere component",
+            "key": "ds",
+            "category": "item",
+            "row": 7
+        },
+        {
+            "name": "Small carrier rocket",
+            "key": "sc",
+            "category": "item",
+            "row": 7
+        },
+        {
+            "name": "Plant fuel",
+            "key": "pg",
+            "category": "item",
+            "row": 7
+        },
+        {
+            "name": "Tesla tower",
+            "key": "tt",
+            "category": "building",
+            "row": 1
+        },
+        {
+            "name": "Wireless power tower",
+            "key": "wq",
+            "category": "building",
+            "row": 1
+        },
+        {
+            "name": "Satellite substation",
+            "key": "ss",
+            "category": "building",
+            "row": 1
+        },
+        {
+            "name": "Wind turbine",
+            "key": "wt",
+            "category": "building",
+            "row": 1
+        },
+        {
+            "name": "Thermal power station",
+            "key": "tp",
+            "category": "building",
+            "row": 1
+        },
+        {
+            "name": "Solar panel",
+            "key": "sp",
+            "category": "building",
+            "row": 1
+        },
+        {
+            "name": "Mini fusion power station",
+            "key": "mf",
+            "category": "building",
+            "row": 1
+        },
+        {
+            "name": "Accumulator",
+            "key": "a",
+            "category": "building",
+            "row": 1
+        },
+        {
+            "name": "Accumulator(full)",
+            "key": "b",
+            "category": "building",
+            "row": 1
+        },
+        {
+            "name": "Energy exchanger",
+            "key": "ee",
+            "category": "building",
+            "row": 1
+        },
+        {
+            "name": "Ray receiver",
+            "key": "rr",
+            "category": "building",
+            "row": 1
+        },
+        {
+            "name": "Artificial star",
+            "key": "as",
+            "category": "building",
+            "row": 1
+        },
+        {
+            "name": "Conveyor belt MK.I",
+            "key": "cd",
+            "category": "building",
+            "row": 2
+        },
+        {
+            "name": "Conveyor belt MK.II",
+            "key": "ce",
+            "category": "building",
+            "row": 2
+        },
+        {
+            "name": "Conveyor belt MK.III",
+            "key": "cf",
+            "category": "building",
+            "row": 2
+        },
+        {
+            "name": "Splitter(4-direction)",
+            "key": "sd",
+            "category": "building",
+            "row": 2
+        },
+        {
+            "name": "Storage MK.I",
+            "key": "sv",
+            "category": "building",
+            "row": 2
+        },
+        {
+            "name": "Storage MK.II",
+            "key": "sx",
+            "category": "building",
+            "row": 2
+        },
+        {
+            "name": "Storage tank",
+            "key": "sy",
+            "category": "building",
+            "row": 2
+        },
+        {
+            "name": "Logistics station",
+            "key": "ls",
+            "category": "building",
+            "row": 2
+        },
+        {
+            "name": "Interstellar logistics station",
+            "key": "il",
+            "category": "building",
+            "row": 2
+        },
+        {
+            "name": "Orbit collector",
+            "key": "oc",
+            "category": "building",
+            "row": 2
+        },
+        {
+            "name": "EM-Rail Ejector",
+            "key": "er",
+            "category": "building",
+            "row": 2
+        },
+        {
+            "name": "Sorter MK.I",
+            "key": "sm",
+            "category": "building",
+            "row": 3
+        },
+        {
+            "name": "Sorter MK.II",
+            "key": "sn",
+            "category": "building",
+            "row": 3
+        },
+        {
+            "name": "Sorter MK.III",
+            "key": "sq",
+            "category": "building",
+            "row": 3
+        },
+        {
+            "name": "Mining machine",
+            "key": "mm",
+            "category": "building",
+            "row": 3
+        },
+        {
+            "name": "Water pump",
+            "key": "wp",
+            "category": "building",
+            "row": 3
+        },
+        {
+            "name": "Oil extractor",
+            "key": "oe",
+            "category": "building",
+            "row": 3
+        },
+        {
+            "name": "Oil refinery",
+            "key": "or",
+            "category": "building",
+            "row": 3
+        },
+        {
+            "name": "Miniature particle collider",
+            "key": "mp",
+            "category": "building",
+            "row": 3
+        },
+        {
+            "name": "Matrix lab",
+            "key": "ml",
+            "category": "building",
+            "row": 3
+        },
+        {
+            "name": "Vertical launching silo",
+            "key": "vl",
+            "category": "building",
+            "row": 3
+        },
+        {
+            "name": "Assembling machine Mk.I",
+            "key": "am",
+            "category": "building",
+            "row": 4
+        },
+        {
+            "name": "Assembling machine Mk.II",
+            "key": "an",
+            "category": "building",
+            "row": 4
+        },
+        {
+            "name": "Assembling machine Mk.III",
+            "key": "ao",
+            "category": "building",
+            "row": 4
+        },
+        {
+            "name": "Smelter",
+            "key": "s",
+            "category": "building",
+            "row": 4
+        },
+        {
+            "name": "Spray coater",
+            "key": "se",
+            "category": "building",
+            "row": 4
+        },
+        {
+            "name": "Chemical plant",
+            "key": "cp",
+            "category": "building",
+            "row": 4
+        },
+        {
+            "name": "Fractionator",
+            "key": "g",
+            "category": "building",
+            "row": 4
+        }
+    ],
+    "recipes": [
+        {
+            "name": "Iron ingot",
+            "key": "ii",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "io",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "ii",
+                    "amount": 1
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "Magnet",
+            "key": "m",
+            "time": 1.5,
+            "ingredients": [
+                {
+                    "name": "io",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "m",
+                    "amount": 1
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "Copper ingot",
+            "key": "ci",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "cq",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "ci",
+                    "amount": 1
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "Stone",
+            "key": "u",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "sr",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "u",
+                    "amount": 1
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "Gear",
+            "key": "h",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "h",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Magnetic coil",
+            "key": "mc",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "m",
+                    "amount": 2
+                },
+                {
+                    "name": "ci",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "mc",
+                    "amount": 2
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Wind turbine",
+            "key": "wt",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 6
+                },
+                {
+                    "name": "h",
+                    "amount": 1
+                },
+                {
+                    "name": "mc",
+                    "amount": 3
+                }
+            ],
+            "products": [
+                {
+                    "name": "wt",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Tesla tower",
+            "key": "tt",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 2
+                },
+                {
+                    "name": "mc",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "tt",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Electromagnetic matrix",
+            "key": "en",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "mc",
+                    "amount": 1
+                },
+                {
+                    "name": "cb",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "en",
+                    "amount": 1
+                }
+            ],
+            "category": "lab"
+        },
+        {
+            "name": "Matrix lab",
+            "key": "ml",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 8
+                },
+                {
+                    "name": "i",
+                    "amount": 4
+                },
+                {
+                    "name": "cb",
+                    "amount": 4
+                },
+                {
+                    "name": "mc",
+                    "amount": 4
+                }
+            ],
+            "products": [
+                {
+                    "name": "ml",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Prism",
+            "key": "q",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "i",
+                    "amount": 3
+                }
+            ],
+            "products": [
+                {
+                    "name": "q",
+                    "amount": 2
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Plasma exciter",
+            "key": "ph",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "mc",
+                    "amount": 4
+                },
+                {
+                    "name": "q",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "pe",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Wireless power tower",
+            "key": "wq",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "tt",
+                    "amount": 1
+                },
+                {
+                    "name": "pe",
+                    "amount": 3
+                }
+            ],
+            "products": [
+                {
+                    "name": "wq",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Oil extractor",
+            "key": "oe",
+            "time": 8,
+            "ingredients": [
+                {
+                    "name": "t",
+                    "amount": 12
+                },
+                {
+                    "name": "u",
+                    "amount": 12
+                },
+                {
+                    "name": "cb",
+                    "amount": 6
+                },
+                {
+                    "name": "pe",
+                    "amount": 4
+                }
+            ],
+            "products": [
+                {
+                    "name": "oe",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Oil refinery",
+            "key": "or",
+            "time": 6,
+            "ingredients": [
+                {
+                    "name": "t",
+                    "amount": 10
+                },
+                {
+                    "name": "u",
+                    "amount": 10
+                },
+                {
+                    "name": "cb",
+                    "amount": 6
+                },
+                {
+                    "name": "pe",
+                    "amount": 6
+                }
+            ],
+            "products": [
+                {
+                    "name": "or",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Plasma refining",
+            "key": "pr",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "cs",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "k",
+                    "amount": 1
+                },
+                {
+                    "name": "ro",
+                    "amount": 2
+                }
+            ],
+            "category": "refining"
+        },
+        {
+            "name": "Energetic graphite",
+            "key": "eg",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "co",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "eg",
+                    "amount": 1
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "Energy matrix",
+            "key": "eo",
+            "time": 6,
+            "ingredients": [
+                {
+                    "name": "eg",
+                    "amount": 2
+                },
+                {
+                    "name": "k",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "eo",
+                    "amount": 1
+                }
+            ],
+            "category": "lab"
+        },
+        {
+            "name": "Hydrogen fuel rod",
+            "key": "hf",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "ti",
+                    "amount": 1
+                },
+                {
+                    "name": "k",
+                    "amount": 5
+                }
+            ],
+            "products": [
+                {
+                    "name": "hf",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Thruster",
+            "key": "v",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "t",
+                    "amount": 2
+                },
+                {
+                    "name": "ci",
+                    "amount": 3
+                }
+            ],
+            "products": [
+                {
+                    "name": "v",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Reinforced thruster",
+            "key": "rt",
+            "time": 6,
+            "ingredients": [
+                {
+                    "name": "ta",
+                    "amount": 5
+                },
+                {
+                    "name": "et",
+                    "amount": 5
+                }
+            ],
+            "products": [
+                {
+                    "name": "rt",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Chemical plant",
+            "key": "cp",
+            "time": 5,
+            "ingredients": [
+                {
+                    "name": "t",
+                    "amount": 8
+                },
+                {
+                    "name": "u",
+                    "amount": 8
+                },
+                {
+                    "name": "i",
+                    "amount": 8
+                },
+                {
+                    "name": "cb",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "cp",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Plastic",
+            "key": "p",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "ro",
+                    "amount": 2
+                },
+                {
+                    "name": "eg",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "p",
+                    "amount": 1
+                }
+            ],
+            "category": "chemistry"
+        },
+        {
+            "name": "Sulfuric acid",
+            "key": "sa",
+            "time": 6,
+            "ingredients": [
+                {
+                    "name": "ro",
+                    "amount": 6
+                },
+                {
+                    "name": "sr",
+                    "amount": 8
+                },
+                {
+                    "name": "w",
+                    "amount": 4
+                }
+            ],
+            "products": [
+                {
+                    "name": "sa",
+                    "amount": 4
+                }
+            ],
+            "category": "chemistry"
+        },
+        {
+            "name": "Organic crystal",
+            "key": "od",
+            "time": 6,
+            "ingredients": [
+                {
+                    "name": "p",
+                    "amount": 2
+                },
+                {
+                    "name": "ro",
+                    "amount": 1
+                },
+                {
+                    "name": "w",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "od",
+                    "amount": 1
+                }
+            ],
+            "category": "chemistry"
+        },
+        {
+            "name": "Titanium crystal",
+            "key": "tc",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "od",
+                    "amount": 1
+                },
+                {
+                    "name": "ti",
+                    "amount": 3
+                }
+            ],
+            "products": [
+                {
+                    "name": "tc",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Structure matrix",
+            "key": "sz",
+            "time": 8,
+            "ingredients": [
+                {
+                    "name": "e",
+                    "amount": 1
+                },
+                {
+                    "name": "tc",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "sA",
+                    "amount": 1
+                }
+            ],
+            "category": "lab"
+        },
+        {
+            "name": "Casimir crystal",
+            "key": "cc",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "tc",
+                    "amount": 1
+                },
+                {
+                    "name": "j",
+                    "amount": 2
+                },
+                {
+                    "name": "k",
+                    "amount": 12
+                }
+            ],
+            "products": [
+                {
+                    "name": "cc",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Casimir crystal (advanced)",
+            "key": "cd",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "og",
+                    "amount": 6
+                },
+                {
+                    "name": "j",
+                    "amount": 2
+                },
+                {
+                    "name": "k",
+                    "amount": 12
+                }
+            ],
+            "products": [
+                {
+                    "name": "cc",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Titanium glass",
+            "key": "tg",
+            "time": 5,
+            "ingredients": [
+                {
+                    "name": "i",
+                    "amount": 2
+                },
+                {
+                    "name": "ti",
+                    "amount": 2
+                },
+                {
+                    "name": "w",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "tg",
+                    "amount": 2
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Graphene",
+            "key": "j",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "eg",
+                    "amount": 3
+                },
+                {
+                    "name": "sa",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "j",
+                    "amount": 2
+                }
+            ],
+            "category": "chemistry"
+        },
+        {
+            "name": "Graphene (advanced)",
+            "key": "ga",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "fi",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "j",
+                    "amount": 2
+                },
+                {
+                    "name": "k",
+                    "amount": 1
+                }
+            ],
+            "category": "chemistry"
+        },
+        {
+            "name": "Carbon nanotube",
+            "key": "cn",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "j",
+                    "amount": 3
+                },
+                {
+                    "name": "ti",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "cn",
+                    "amount": 2
+                }
+            ],
+            "category": "chemistry"
+        },
+        {
+            "name": "Silicon ore",
+            "key": "so",
+            "time": 10,
+            "ingredients": [
+                {
+                    "name": "sr",
+                    "amount": 10
+                }
+            ],
+            "products": [
+                {
+                    "name": "so",
+                    "amount": 1
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "Carbon nanotube (advanced)",
+            "key": "co",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "su",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "cn",
+                    "amount": 2
+                }
+            ],
+            "category": "chemistry"
+        },
+        {
+            "name": "Particle broadband",
+            "key": "pb",
+            "time": 8,
+            "ingredients": [
+                {
+                    "name": "cn",
+                    "amount": 2
+                },
+                {
+                    "name": "ct",
+                    "amount": 2
+                },
+                {
+                    "name": "p",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "pb",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Crystal silicon",
+            "key": "cs",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "hp",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "ct",
+                    "amount": 1
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "Plane filter",
+            "key": "pg",
+            "time": 12,
+            "ingredients": [
+                {
+                    "name": "cc",
+                    "amount": 1
+                },
+                {
+                    "name": "tg",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "pf",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Miniature particle collider",
+            "key": "mp",
+            "time": 15,
+            "ingredients": [
+                {
+                    "name": "ta",
+                    "amount": 20
+                },
+                {
+                    "name": "fm",
+                    "amount": 20
+                },
+                {
+                    "name": "sB",
+                    "amount": 50
+                },
+                {
+                    "name": "j",
+                    "amount": 10
+                },
+                {
+                    "name": "r",
+                    "amount": 8
+                }
+            ],
+            "products": [
+                {
+                    "name": "mp",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Deuterium",
+            "key": "d",
+            "time": 5,
+            "ingredients": [
+                {
+                    "name": "k",
+                    "amount": 10
+                }
+            ],
+            "products": [
+                {
+                    "name": "d",
+                    "amount": 5
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Deuteron fuel rod",
+            "key": "dg",
+            "time": 6,
+            "ingredients": [
+                {
+                    "name": "ta",
+                    "amount": 1
+                },
+                {
+                    "name": "d",
+                    "amount": 10
+                },
+                {
+                    "name": "sB",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "df",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Annihilation constraint sphere",
+            "key": "ac",
+            "time": 20,
+            "ingredients": [
+                {
+                    "name": "pc",
+                    "amount": 1
+                },
+                {
+                    "name": "r",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "ac",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Artificial star",
+            "key": "as",
+            "time": 30,
+            "ingredients": [
+                {
+                    "name": "ta",
+                    "amount": 20
+                },
+                {
+                    "name": "fm",
+                    "amount": 20
+                },
+                {
+                    "name": "ac",
+                    "amount": 10
+                },
+                {
+                    "name": "qc",
+                    "amount": 10
+                }
+            ],
+            "products": [
+                {
+                    "name": "as",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Antimatter fuel rod",
+            "key": "af",
+            "time": 12,
+            "ingredients": [
+                {
+                    "name": "c",
+                    "amount": 10
+                },
+                {
+                    "name": "k",
+                    "amount": 10
+                },
+                {
+                    "name": "ac",
+                    "amount": 1
+                },
+                {
+                    "name": "ta",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "af",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Assembling machine Mk.I",
+            "key": "am",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 4
+                },
+                {
+                    "name": "h",
+                    "amount": 8
+                },
+                {
+                    "name": "cb",
+                    "amount": 4
+                }
+            ],
+            "products": [
+                {
+                    "name": "am",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Assembling machine Mk.II",
+            "key": "an",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "am",
+                    "amount": 1
+                },
+                {
+                    "name": "j",
+                    "amount": 8
+                },
+                {
+                    "name": "r",
+                    "amount": 4
+                }
+            ],
+            "products": [
+                {
+                    "name": "an",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Assembling machine Mk.III",
+            "key": "ao",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "an",
+                    "amount": 1
+                },
+                {
+                    "name": "pb",
+                    "amount": 8
+                },
+                {
+                    "name": "qc",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "ao",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Mining machine",
+            "key": "mm",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 4
+                },
+                {
+                    "name": "cb",
+                    "amount": 2
+                },
+                {
+                    "name": "mc",
+                    "amount": 2
+                },
+                {
+                    "name": "h",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "mm",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Water pump",
+            "key": "wp",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 8
+                },
+                {
+                    "name": "u",
+                    "amount": 4
+                },
+                {
+                    "name": "em",
+                    "amount": 4
+                },
+                {
+                    "name": "cb",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "wp",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Circuit board",
+            "key": "cb",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 2
+                },
+                {
+                    "name": "ci",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "cb",
+                    "amount": 2
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Processor",
+            "key": "r",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "cb",
+                    "amount": 2
+                },
+                {
+                    "name": "md",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "r",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Quantum chip",
+            "key": "qc",
+            "time": 6,
+            "ingredients": [
+                {
+                    "name": "r",
+                    "amount": 2
+                },
+                {
+                    "name": "pf",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "qc",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Microcrystalline component",
+            "key": "md",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "hp",
+                    "amount": 2
+                },
+                {
+                    "name": "ci",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "md",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Organic crystal (original)",
+            "key": "of",
+            "time": 6,
+            "ingredients": [
+                {
+                    "name": "l",
+                    "amount": 20
+                },
+                {
+                    "name": "pg",
+                    "amount": 30
+                },
+                {
+                    "name": "w",
+                    "amount": 10
+                }
+            ],
+            "products": [
+                {
+                    "name": "od",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Information matrix",
+            "key": "im",
+            "time": 10,
+            "ingredients": [
+                {
+                    "name": "r",
+                    "amount": 2
+                },
+                {
+                    "name": "pb",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "im",
+                    "amount": 1
+                }
+            ],
+            "category": "lab"
+        },
+        {
+            "name": "Smelter",
+            "key": "s",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 4
+                },
+                {
+                    "name": "u",
+                    "amount": 2
+                },
+                {
+                    "name": "cb",
+                    "amount": 4
+                },
+                {
+                    "name": "mc",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "s",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Glass",
+            "key": "i",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "sr",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "i",
+                    "amount": 1
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "X-ray cracking",
+            "key": "xr",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "ro",
+                    "amount": 1
+                },
+                {
+                    "name": "k",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "k",
+                    "amount": 3
+                },
+                {
+                    "name": "eg",
+                    "amount": 1
+                }
+            ],
+            "category": "refining"
+        },
+        {
+            "name": "High-purity silicon",
+            "key": "hp",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "so",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "hp",
+                    "amount": 1
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "Diamond",
+            "key": "e",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "eg",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "e",
+                    "amount": 1
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "Diamond (advanced)",
+            "key": "da",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "ko",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "e",
+                    "amount": 1
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "Crystal silicon (advanced)",
+            "key": "ct",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "fs",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "ct",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Steel",
+            "key": "t",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 3
+                }
+            ],
+            "products": [
+                {
+                    "name": "t",
+                    "amount": 1
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "Thermal power station",
+            "key": "tp",
+            "time": 5,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 10
+                },
+                {
+                    "name": "u",
+                    "amount": 4
+                },
+                {
+                    "name": "h",
+                    "amount": 4
+                },
+                {
+                    "name": "mc",
+                    "amount": 4
+                }
+            ],
+            "products": [
+                {
+                    "name": "tp",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Titanium ingot",
+            "key": "ti",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "to",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "ti",
+                    "amount": 1
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "Titanium alloy",
+            "key": "ta",
+            "time": 12,
+            "ingredients": [
+                {
+                    "name": "ti",
+                    "amount": 4
+                },
+                {
+                    "name": "t",
+                    "amount": 4
+                },
+                {
+                    "name": "sa",
+                    "amount": 8
+                }
+            ],
+            "products": [
+                {
+                    "name": "ta",
+                    "amount": 4
+                }
+            ],
+            "category": "smelting"
+        },
+        {
+            "name": "Solar panel",
+            "key": "sp",
+            "time": 5,
+            "ingredients": [
+                {
+                    "name": "ci",
+                    "amount": 6
+                },
+                {
+                    "name": "hp",
+                    "amount": 6
+                },
+                {
+                    "name": "cb",
+                    "amount": 4
+                }
+            ],
+            "products": [
+                {
+                    "name": "sp",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Photon combiner",
+            "key": "pe",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "q",
+                    "amount": 2
+                },
+                {
+                    "name": "cb",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "pd",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Photon combiner (advanced)",
+            "key": "pf",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "og",
+                    "amount": 1
+                },
+                {
+                    "name": "cb",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "pd",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Solar sail",
+            "key": "st",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "j",
+                    "amount": 1
+                },
+                {
+                    "name": "pd",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "st",
+                    "amount": 2
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "EM-Rail Ejector",
+            "key": "er",
+            "time": 6,
+            "ingredients": [
+                {
+                    "name": "t",
+                    "amount": 20
+                },
+                {
+                    "name": "h",
+                    "amount": 20
+                },
+                {
+                    "name": "r",
+                    "amount": 5
+                },
+                {
+                    "name": "sB",
+                    "amount": 20
+                }
+            ],
+            "products": [
+                {
+                    "name": "er",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Ray receiver",
+            "key": "rr",
+            "time": 8,
+            "ingredients": [
+                {
+                    "name": "t",
+                    "amount": 20
+                },
+                {
+                    "name": "hp",
+                    "amount": 20
+                },
+                {
+                    "name": "pd",
+                    "amount": 10
+                },
+                {
+                    "name": "r",
+                    "amount": 5
+                },
+                {
+                    "name": "sB",
+                    "amount": 20
+                }
+            ],
+            "products": [
+                {
+                    "name": "rr",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Satellite substation",
+            "key": "ss",
+            "time": 5,
+            "ingredients": [
+                {
+                    "name": "wq",
+                    "amount": 1
+                },
+                {
+                    "name": "sB",
+                    "amount": 10
+                },
+                {
+                    "name": "fm",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "ss",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Mass-energy storage",
+            "key": "me",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "cr",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "c",
+                    "amount": 2
+                },
+                {
+                    "name": "k",
+                    "amount": 2
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Universe matrix",
+            "key": "um",
+            "time": 15,
+            "ingredients": [
+                {
+                    "name": "en",
+                    "amount": 1
+                },
+                {
+                    "name": "eo",
+                    "amount": 1
+                },
+                {
+                    "name": "sA",
+                    "amount": 1
+                },
+                {
+                    "name": "im",
+                    "amount": 1
+                },
+                {
+                    "name": "gm",
+                    "amount": 1
+                },
+                {
+                    "name": "c",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "un",
+                    "amount": 1
+                }
+            ],
+            "category": "lab"
+        },
+        {
+            "name": "Accumulator",
+            "key": "a",
+            "time": 5,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 6
+                },
+                {
+                    "name": "sB",
+                    "amount": 6
+                },
+                {
+                    "name": "ct",
+                    "amount": 4
+                }
+            ],
+            "products": [
+                {
+                    "name": "a",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Energy exchanger",
+            "key": "ee",
+            "time": 15,
+            "ingredients": [
+                {
+                    "name": "ta",
+                    "amount": 40
+                },
+                {
+                    "name": "t",
+                    "amount": 40
+                },
+                {
+                    "name": "r",
+                    "amount": 40
+                },
+                {
+                    "name": "pc",
+                    "amount": 8
+                }
+            ],
+            "products": [
+                {
+                    "name": "ee",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Space warper",
+            "key": "sw",
+            "time": 10,
+            "ingredients": [
+                {
+                    "name": "gl",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "sw",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Space warper (advanced)",
+            "key": "sx",
+            "time": 10,
+            "ingredients": [
+                {
+                    "name": "gm",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "sw",
+                    "amount": 8
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Frame material",
+            "key": "fm",
+            "time": 6,
+            "ingredients": [
+                {
+                    "name": "cn",
+                    "amount": 4
+                },
+                {
+                    "name": "ta",
+                    "amount": 1
+                },
+                {
+                    "name": "hp",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "fm",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Dyson sphere component",
+            "key": "ds",
+            "time": 8,
+            "ingredients": [
+                {
+                    "name": "fm",
+                    "amount": 3
+                },
+                {
+                    "name": "st",
+                    "amount": 3
+                },
+                {
+                    "name": "r",
+                    "amount": 3
+                }
+            ],
+            "products": [
+                {
+                    "name": "ds",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Vertical launching silo",
+            "key": "vl",
+            "time": 30,
+            "ingredients": [
+                {
+                    "name": "ta",
+                    "amount": 80
+                },
+                {
+                    "name": "fm",
+                    "amount": 30
+                },
+                {
+                    "name": "gl",
+                    "amount": 20
+                },
+                {
+                    "name": "qc",
+                    "amount": 10
+                }
+            ],
+            "products": [
+                {
+                    "name": "vl",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Small carrier rocket",
+            "key": "sc",
+            "time": 6,
+            "ingredients": [
+                {
+                    "name": "ds",
+                    "amount": 2
+                },
+                {
+                    "name": "df",
+                    "amount": 2
+                },
+                {
+                    "name": "qc",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "sc",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Conveyor belt MK.I",
+            "key": "ce",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 2
+                },
+                {
+                    "name": "h",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "cd",
+                    "amount": 3
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Sorter MK.I",
+            "key": "sm",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 1
+                },
+                {
+                    "name": "cb",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "sm",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Storage MK.I",
+            "key": "sr",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 4
+                },
+                {
+                    "name": "u",
+                    "amount": 4
+                }
+            ],
+            "products": [
+                {
+                    "name": "sv",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Splitter(4-direction)",
+            "key": "sd",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 3
+                },
+                {
+                    "name": "h",
+                    "amount": 2
+                },
+                {
+                    "name": "cb",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "sd",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Sorter MK.II",
+            "key": "sn",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "sm",
+                    "amount": 2
+                },
+                {
+                    "name": "em",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "sn",
+                    "amount": 2
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Conveyor belt MK.II",
+            "key": "cf",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "cd",
+                    "amount": 3
+                },
+                {
+                    "name": "et",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "ce",
+                    "amount": 3
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Sorter MK.III",
+            "key": "sq",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "sn",
+                    "amount": 2
+                },
+                {
+                    "name": "et",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "sq",
+                    "amount": 2
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Storage MK.II",
+            "key": "su",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "t",
+                    "amount": 8
+                },
+                {
+                    "name": "u",
+                    "amount": 8
+                }
+            ],
+            "products": [
+                {
+                    "name": "sx",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Conveyor belt MK.III",
+            "key": "cg",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "ce",
+                    "amount": 3
+                },
+                {
+                    "name": "sB",
+                    "amount": 1
+                },
+                {
+                    "name": "j",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "cf",
+                    "amount": 3
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Logistics station",
+            "key": "ls",
+            "time": 20,
+            "ingredients": [
+                {
+                    "name": "t",
+                    "amount": 50
+                },
+                {
+                    "name": "ti",
+                    "amount": 50
+                },
+                {
+                    "name": "r",
+                    "amount": 50
+                },
+                {
+                    "name": "pc",
+                    "amount": 20
+                }
+            ],
+            "products": [
+                {
+                    "name": "ls",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Logistics drone",
+            "key": "ld",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 5
+                },
+                {
+                    "name": "r",
+                    "amount": 2
+                },
+                {
+                    "name": "v",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "ld",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Interstellar logistics station",
+            "key": "il",
+            "time": 30,
+            "ingredients": [
+                {
+                    "name": "ls",
+                    "amount": 1
+                },
+                {
+                    "name": "ta",
+                    "amount": 50
+                },
+                {
+                    "name": "pc",
+                    "amount": 20
+                }
+            ],
+            "products": [
+                {
+                    "name": "il",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Logistics vessel",
+            "key": "lv",
+            "time": 6,
+            "ingredients": [
+                {
+                    "name": "ta",
+                    "amount": 10
+                },
+                {
+                    "name": "r",
+                    "amount": 10
+                },
+                {
+                    "name": "rt",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "lv",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Electric motor",
+            "key": "em",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 2
+                },
+                {
+                    "name": "h",
+                    "amount": 1
+                },
+                {
+                    "name": "mc",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "em",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Electromagnetic turbine",
+            "key": "et",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "em",
+                    "amount": 2
+                },
+                {
+                    "name": "mc",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "et",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Particle container",
+            "key": "pc",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "et",
+                    "amount": 2
+                },
+                {
+                    "name": "ci",
+                    "amount": 2
+                },
+                {
+                    "name": "j",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "pc",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Particle container (advanced)",
+            "key": "pd",
+            "time": 4,
+            "ingredients": [
+                {
+                    "name": "um",
+                    "amount": 10
+                },
+                {
+                    "name": "ci",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "pc",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Graviton lens",
+            "key": "gl",
+            "time": 6,
+            "ingredients": [
+                {
+                    "name": "e",
+                    "amount": 4
+                },
+                {
+                    "name": "sz",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "gl",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Gravity matrix",
+            "key": "gm",
+            "time": 24,
+            "ingredients": [
+                {
+                    "name": "gl",
+                    "amount": 1
+                },
+                {
+                    "name": "qc",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "gm",
+                    "amount": 2
+                }
+            ],
+            "category": "lab"
+        },
+        {
+            "name": "Super-magnetic ring",
+            "key": "sA",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "et",
+                    "amount": 2
+                },
+                {
+                    "name": "m",
+                    "amount": 3
+                },
+                {
+                    "name": "eg",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "sB",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Strange matter",
+            "key": "sy",
+            "time": 8,
+            "ingredients": [
+                {
+                    "name": "pc",
+                    "amount": 2
+                },
+                {
+                    "name": "ii",
+                    "amount": 2
+                },
+                {
+                    "name": "d",
+                    "amount": 10
+                }
+            ],
+            "products": [
+                {
+                    "name": "sz",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Spray coater",
+            "key": "se",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "pe",
+                    "amount": 1
+                },
+                {
+                    "name": "cb",
+                    "amount": 4
+                },
+                {
+                    "name": "t",
+                    "amount": 2
+                }
+            ],
+            "products": [
+                {
+                    "name": "se",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Fractionator",
+            "key": "g",
+            "time": 3,
+            "ingredients": [
+                {
+                    "name": "t",
+                    "amount": 8
+                },
+                {
+                    "name": "u",
+                    "amount": 4
+                },
+                {
+                    "name": "i",
+                    "amount": 4
+                },
+                {
+                    "name": "r",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "g",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Orbit collector",
+            "key": "oc",
+            "time": 30,
+            "ingredients": [
+                {
+                    "name": "il",
+                    "amount": 1
+                },
+                {
+                    "name": "sB",
+                    "amount": 50
+                },
+                {
+                    "name": "rt",
+                    "amount": 20
+                },
+                {
+                    "name": "b",
+                    "amount": 20
+                }
+            ],
+            "products": [
+                {
+                    "name": "oc",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Foundation",
+            "key": "f",
+            "time": 1,
+            "ingredients": [
+                {
+                    "name": "u",
+                    "amount": 3
+                },
+                {
+                    "name": "t",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "f",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Mini fusion power station",
+            "key": "mf",
+            "time": 10,
+            "ingredients": [
+                {
+                    "name": "ta",
+                    "amount": 12
+                },
+                {
+                    "name": "sB",
+                    "amount": 10
+                },
+                {
+                    "name": "cn",
+                    "amount": 8
+                },
+                {
+                    "name": "r",
+                    "amount": 4
+                }
+            ],
+            "products": [
+                {
+                    "name": "mf",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Storage tank",
+            "key": "sv",
+            "time": 2,
+            "ingredients": [
+                {
+                    "name": "ii",
+                    "amount": 8
+                },
+                {
+                    "name": "u",
+                    "amount": 4
+                },
+                {
+                    "name": "i",
+                    "amount": 4
+                }
+            ],
+            "products": [
+                {
+                    "name": "sy",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Deuterium fractionation",
+            "key": "df",
+            "time": 0.016666666666666666,
+            "ingredients": [
+                {
+                    "name": "k",
+                    "amount": 200
+                }
+            ],
+            "products": [
+                {
+                    "name": "d",
+                    "amount": 1
+                }
+            ],
+            "category": "crafting"
+        },
+        {
+            "name": "Accumulator(full)",
+            "key": "b",
+            "time": 150,
+            "ingredients": [
+                {
+                    "name": "a",
+                    "amount": 1
+                }
+            ],
+            "products": [
+                {
+                    "name": "b",
+                    "amount": 1
+                }
+            ],
+            "category": null
+        }
+    ],
+    "resources": [
+        {
+            "name": "Iron ore",
+            "key": "io",
+            "item": "io",
+            "category": "mining"
+        },
+        {
+            "name": "Copper ore",
+            "key": "cr",
+            "item": "cq",
+            "category": "mining"
+        },
+        {
+            "name": "Silicon ore",
+            "key": "sB",
+            "item": "so",
+            "category": "mining"
+        },
+        {
+            "name": "Titanium ore",
+            "key": "to",
+            "item": "to",
+            "category": "mining"
+        },
+        {
+            "name": "Stone ore",
+            "key": "sD",
+            "item": "sr",
+            "category": "mining"
+        },
+        {
+            "name": "Coal ore",
+            "key": "cq",
+            "item": "co",
+            "category": "mining"
+        },
+        {
+            "name": "Crude oil",
+            "key": "cv",
+            "item": "cs",
+            "category": "oil"
+        },
+        {
+            "name": "Fire ice",
+            "key": "fi",
+            "item": "fi",
+            "category": "mining"
+        },
+        {
+            "name": "Kimberlite ore",
+            "key": "ko",
+            "item": "ko",
+            "category": "mining"
+        },
+        {
+            "name": "Fractal silicon",
+            "key": "fs",
+            "item": "fs",
+            "category": "mining"
+        },
+        {
+            "name": "Organic crystal",
+            "key": "oh",
+            "item": "od",
+            "category": "mining"
+        },
+        {
+            "name": "Optical grating crystal",
+            "key": "og",
+            "item": "og",
+            "category": "mining"
+        },
+        {
+            "name": "Spiniform stalagmite crystal",
+            "key": "sC",
+            "item": "su",
+            "category": "mining"
+        },
+        {
+            "name": "Unipolar magnet",
+            "key": "un",
+            "item": "um",
+            "category": "mining"
+        },
+        {
+            "name": "Water",
+            "key": "w",
+            "item": "w",
+            "category": "pump"
+        },
+        {
+            "name": "Sulfuric acid",
+            "key": "sb",
+            "item": "sa",
+            "category": "pump"
+        },
+        {
+            "name": "Critical photon",
+            "key": "cu",
+            "item": "cr",
+            "category": null
+        },
+        {
+            "name": "Plant fuel",
+            "key": "pi",
+            "item": "pg",
+            "category": null
+        },
+        {
+            "name": "Log",
+            "key": "n",
+            "item": "l",
+            "category": null
+        },
+        {
+            "name": "Hydrogen",
+            "key": "l",
+            "item": "k",
+            "category": null
+        },
+        {
+            "name": "Deuterium",
+            "key": "k",
+            "item": "d",
+            "category": null
+        }
+    ]
+}
