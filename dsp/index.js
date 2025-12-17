@@ -1,6 +1,11 @@
 let g_data_json = g_dsp_data;
 let g_content = null;
 
+function ch_build_clicked() {
+	// console.log("clicked");
+	g_content.classList.toggle("show-building-ing");
+}
+
 const image_dir = "../images/dsp";
 const key_field_name = "key";
 
@@ -99,10 +104,12 @@ function find_recipes_for_ingredient(item_key) {
 		const r = recipes[i];
 		
 		// filter buildings
+		/*
 		const item = find_item_by_key_name(r.products[0].name);
 		if(item.category == "building") {
 			continue;
 		}
+		*/
 		
 		const ingredients = r.ingredients;
 		for(let j=0;j<ingredients.length;++j) {
@@ -150,43 +157,31 @@ function create_recipe_row(rec) {
 	return str;
 }
 
-/*
-function create_recipe_list() {
-	let div = document.createElement("div");
-	let str = "<table>";
-	//str += "<tr><th>img</th><th>product</th><th>speed</th></tr>";
-	
-	let recipes = g_data_json["recipes"];
-	
-	for(let ix in recipes) {
-		const curRec = recipes[ix];
-		const time = curRec.time;
-		const main_prod = curRec.products[0];
-		const main_prod_item = find_item_by_key_name(main_prod.name);
-		const is_building = main_prod_item.category == "building";
-		const is_building_class = is_building ? " class=\"building\" " : "";
-		str += "<tr" + is_building_class + ">";
-		str += "<td>" + curRec.name + "</td>";
-		str += "<td>";
-		str += create_product_column(curRec.products, time);
-		str += "</td>";
-		str += "<td>";
-		str += create_ingredient_column(curRec.ingredients, time);
-		str += "</td>";
-		str += "</tr>";
-	}
-	str += "</table>";
-	div.innerHTML = str;
-	return div;
-}*/
+
+function is_building_item(item_name) {
+	const item = find_item_by_key_name(item_name)
+	if(!item) return false;
+	return item.category == "building";
+}
+
+function is_building_recipe(r) {
+	return is_building_item(r.products[0].name);
+}
 
 
-function create_recipe_list_table(recipes) {
+function create_recipe_list_table(recipes, classes) {
 	str = "";
-	str += "<table>";
+	if(!classes) classes = "";
+	str += "<table class='" + classes + "'>";
 	for(let ii=0;ii<recipes.length;++ii) {
 		const rr = recipes[ii];
-		str += "<tr>";
+		const is_building = is_building_recipe(rr);
+		if(is_building) {
+			str += "<tr class='building'>";
+		} else {
+			str += "<tr>";
+		}
+		
 		str += create_recipe_row(rr);
 		str += "</tr>";
 	}
@@ -237,7 +232,7 @@ function create_item_list() {
 			str += create_recipe_list_table(item_recipes);
 			str += "</td>";
 			
-			str += "<td>";
+			str += "<td class='ingredients_col'>";
 			str += create_recipe_list_table(find_recipes_for_ingredient(itemKey));
 			str += "</td>";
 		str += "</tr>";

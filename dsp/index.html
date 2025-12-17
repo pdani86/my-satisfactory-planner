@@ -2,9 +2,19 @@
 <head>
 <script src="../data/dsp/data.js"></script>
 <script src="index.js"></script>
-
+<style>
+#fff {
+	position: fixed;
+	left: 95%;
+	width: 5%
+	height: 50px;
+}
+</style>
 </head>
 <body onload="init_page();">
+<div id="fff">
+	<input id="ch_show_building_i" type="checkbox" onclick="ch_build_clicked()" />
+</div>
 <div id="content"></div>
 <link rel="stylesheet" href="main.css">
 </body>

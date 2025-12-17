@@ -16,3 +16,10 @@ tr.resource {
 	background-color: lightgray;
 }
 
+td.ingredients_col tr.building {
+	display: none;
+}
+
+#content.show-building-ing td.ingredients_col tr.building {
+	display: table-row;
+}
